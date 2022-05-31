@@ -6,9 +6,6 @@ jobs:
     name: Exploring GitHub Actions
     runs-on: Windows-latest
     steps:
-      - run: echo "Name - ${{ github.event.inputs.name }}"
-      - run: echo "Deploy code - ${{ github.event.inputs.deploy }}"
-      
       # Display the event that triggered the workflow
       - run: echo "The job was triggered by a ${{ github.event_name }} event."
       
